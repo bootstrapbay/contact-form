@@ -12,6 +12,7 @@
 
 		// Check if name has been entered
 		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
 		}
 		
 		// Check if email has been entered and is valid
